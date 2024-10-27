@@ -8,7 +8,18 @@ defmodule PhoenixUiWeb.LinkLive.Index do
   def render(assigns) do
     ~H"""
     <div class="container">
-      <.h2>Link</.h2>
+      <div class="flex items-baseline justify-between mb-8">
+        <.h2>Link</.h2>
+
+        <.ui_link
+          target="_blank"
+          href="https://github.com/schmt5/phoenix-ui/blob/90e928997ff73096f6c0131047ab69b73653abcb/lib/phoenix_ui_web/components/ui/link.ex"
+        >
+          <span>
+            Copy from Github <.icon name="hero-arrow-top-right-on-square" class="w-5 h5" />
+          </span>
+        </.ui_link>
+      </div>
 
       <div class="mt-6 flex gap-4">
         <.ui_link navigate={~p"/"}>
