@@ -34,6 +34,7 @@ defmodule PhoenixUiWeb.Ui.Heading do
 
   slot :inner_block, required: true
 
+  @spec h3(map()) :: Phoenix.LiveView.Rendered.t()
   def h3(assigns) do
     ~H"""
     <h3 class={["text-zinc-950 text-2xl mt-8 mb-2", @class]} {@rest}>

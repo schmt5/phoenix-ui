@@ -21,9 +21,14 @@
         </.link>
 
         <p class="font-semibold uppercase text-sm mt-8">Components</p>
-        <.link navigate={~p"/heading"} class="text-zinc-500 hover:text-zinc-950 flex items-center gap-2
+        <.link navigate={~p"/avatar"} class="text-zinc-500 hover:text-zinc-950 flex items-center gap-2
         font-semibold px-4 py-2 rounded-md">
-          Heading
+          Avatar
+        </.link>
+
+        <.link navigate={~p"/badge"} class="text-zinc-500 hover:text-zinc-950 flex items-center gap-2
+        font-semibold px-4 py-2 rounded-md">
+          Badge
         </.link>
 
         <.link navigate={~p"/button"} class="text-zinc-500 hover:text-zinc-950 flex items-center gap-2
@@ -31,31 +36,26 @@
           Button
         </.link>
 
-        
-        <.link navigate={~p"/badge"} class="text-zinc-500 hover:text-zinc-950 flex items-center gap-2
+        <.link navigate={~p"/heading"} class="text-zinc-500 hover:text-zinc-950 flex items-center gap-2
         font-semibold px-4 py-2 rounded-md">
-          Badge
+          Heading
         </.link>
-
+        
         <.link navigate={~p"/link"} class="text-zinc-500 hover:text-zinc-950 flex items-center gap-2
         font-semibold px-4 py-2 rounded-md">
           Link
         </.link>
 
-        <.link navigate={~p"/promo"} class="text-zinc-500 hover:text-zinc-950 flex items-center gap-2
+        <.link navigate={~p"/table"} class="text-zinc-500 hover:text-zinc-950 flex items-center gap-2
         font-semibold px-4 py-2 rounded-md">
-          Get Promo
+          Table
         </.link>
-
-
       </div>
-
-
     </nav>
   </header>
 
   <main class="overflow-y-auto bg-slate-50 pt-4 pr-4">
-    <div class="bg-white h-full border border-zinc-100 rounded-lg py-6 px-12">
+    <div class="bg-white min-h-full border border-zinc-100 rounded-lg py-6 px-12">
       <div class="max-w-5xl mx-auto pr-4">
         <.flash_group flash={@flash} />
         <%= @inner_content %>

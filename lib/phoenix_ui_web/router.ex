@@ -19,10 +19,12 @@ defmodule PhoenixUiWeb.Router do
 
     live_session :default, layout: {PhoenixUiWeb.Layouts, :app} do
       live "/", HomeLive.Index
-      live "/button", ButtonLive.Index
+      live "/avatar", AvatarLive.Index
       live "/badge", BadgeLive.Index
+      live "/button", ButtonLive.Index
       live "/heading", HeadingLive.Index
       live "/link", LinkLive.Index
+      live "/table", TableLive.Index
       live "/promo", PromoLive
     end
   end

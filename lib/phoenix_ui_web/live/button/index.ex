@@ -13,7 +13,7 @@ defmodule PhoenixUiWeb.ButtonLive.Index do
 
         <.ui_link
           target="_blank"
-          href="https://github.com/schmt5/phoenix-ui/blob/90e928997ff73096f6c0131047ab69b73653abcb/lib/phoenix_ui_web/components/ui/button.ex"
+          href="https://github.com/schmt5/phoenix-ui/tree/8bf386312a0a66ee0f4c938d6b654abb3c54808b/lib/phoenix_ui_web/components/ui"
         >
           <span>
             Copy from Github <.icon name="hero-arrow-top-right-on-square" class="w-5 h5" />

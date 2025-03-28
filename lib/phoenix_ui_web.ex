@@ -91,6 +91,8 @@ defmodule PhoenixUiWeb do
       import PhoenixUiWeb.Ui.Badge
       import PhoenixUiWeb.Ui.Heading
       import PhoenixUiWeb.Ui.Link
+      import PhoenixUiWeb.Ui.Avatar
+      import PhoenixUiWeb.Ui.Table
 
       # Shortcut for generating JS commands
       alias Phoenix.LiveView.JS
