@@ -45,7 +45,7 @@ if config_env() == :prod do
       """
 
   host = System.get_env("PHX_HOST") || "example.com"
-  port = String.to_integer(System.get_env("PORT") || "4000")
+  port = String.to_integer(System.get_env("PORT") || "8080")
 
   config :phoenix_ui, :dns_cluster_query, System.get_env("DNS_CLUSTER_QUERY")
 

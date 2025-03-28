@@ -3,6 +3,7 @@ defmodule PhoenixUiWeb.Ui.Button do
 
   attr :type, :string, default: nil
   attr :class, :string, default: nil
+  attr :popovertarget, :string, default: nil
   attr :variant, :string, default: "filled"
   attr :icon_only, :boolean, default: false
   attr :rest, :global, include: ~w(disabled form name value)

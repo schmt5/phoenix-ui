@@ -2,4 +2,34 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import "../node_modules/trix/dist/trix.css";
+
+/* Chances are that you are using Tailwind CSS, you might want to add more lines to handle options from the editor since the library resets most HTML tags' default style */
+/* Trix editor specifics */
+@layer base {
+  trix-editor > h1 {
+    @apply text-2xl font-bold;
+  }
+
+  /* Adds style to unordered list */
+  trix-editor > ul {
+    @apply list-disc;
+  }
+
+  /* Add style to ordered list */
+  trix-editor > ol {
+    @apply list-decimal;
+  }
+
+  trix-editor > ol,
+  trix-editor > ul {
+    @apply ml-4;
+  }
+
+  /* Add style to links added within the editor */
+  trix-editor > div > a {
+    @apply text-blue-700 underline decoration-blue-700 italic;
+  }
+}
+
 /* This file is for your main application CSS */

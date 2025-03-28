@@ -23,6 +23,7 @@ defmodule PhoenixUiWeb.Router do
       live "/badge", BadgeLive.Index
       live "/heading", HeadingLive.Index
       live "/link", LinkLive.Index
+      live "/promo", PromoLive
     end
   end
 
