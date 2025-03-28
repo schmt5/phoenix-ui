@@ -13,7 +13,7 @@ defmodule PhoenixUiWeb.BadgeLive.Index do
 
         <.ui_link
           target="_blank"
-          href="https://github.com/schmt5/phoenix-ui/blob/90e928997ff73096f6c0131047ab69b73653abcb/lib/phoenix_ui_web/components/ui/badge.ex"
+          href="https://github.com/schmt5/phoenix-ui/tree/main/lib/phoenix_ui_web/components/ui"
         >
           <span>
             Copy from Github <.icon name="hero-arrow-top-right-on-square" class="w-5 h5" />

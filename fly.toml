@@ -11,7 +11,7 @@ kill_signal = 'SIGTERM'
 
 [env]
   DATABASE_PATH = '/mnt/name/name.db'
-  PHX_HOST = 'phoenix-ui-components-holy-dream.fly.dev'
+  PHX_HOST = 'phoenix-ui.com'
   PORT = '8080'
 
 [[mounts]]
