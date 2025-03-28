@@ -87,11 +87,12 @@ defmodule PhoenixUiWeb do
       import PhoenixUiWeb.CoreComponents
       import PhoenixUiWeb.Gettext
 
-      import PhoenixUiWeb.Ui.Button
+      import PhoenixUiWeb.Ui.Avatar
       import PhoenixUiWeb.Ui.Badge
+      import PhoenixUiWeb.Ui.Button
       import PhoenixUiWeb.Ui.Heading
       import PhoenixUiWeb.Ui.Link
-      import PhoenixUiWeb.Ui.Avatar
+      import PhoenixUiWeb.Ui.NavList
       import PhoenixUiWeb.Ui.Table
 
       # Shortcut for generating JS commands

@@ -26,6 +26,7 @@ defmodule PhoenixUiWeb.Router do
       live "/link", LinkLive.Index
       live "/table", TableLive.Index
       live "/promo", PromoLive
+      live "/nav-list", NavListLive.Index
     end
   end
 
